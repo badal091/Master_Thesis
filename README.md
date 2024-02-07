@@ -62,9 +62,7 @@ Hyper-parameters:
 
 1. We obtained mIoU of 84.76% on testing data
 
-2. Within first 15 epoch, the loss showed decreasing fashion(from 77 to 69), but then was stuck at around 69 for next 15 epochs
-
-![image](https://github.com/badal091/Master_Thesis/assets/103456016/b331be73-1e23-49e6-9369-9a936ec6f4ad)
+![image](https://github.com/badal091/Master_Thesis/assets/103456016/9b76b077-5b5f-4cf2-a4cd-3f2acb4cebed)
 
 Example-1
 
