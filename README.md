@@ -6,7 +6,7 @@ Our main objective is to leverage vision transformer (ViT) and cross-attention t
 
 Multi task learning include classification, semantic segmentation, monocular depth estimation & surface normal estimation etc.
 
-<img src="https://github.com/badal091/Master_Thesis/assets/103456016/3555dda8-0f75-45bf-a1bc-bf4e3b742fc8" width="200" height="200" />
+<img src="https://github.com/badal091/Master_Thesis/assets/103456016/3555dda8-0f75-45bf-a1bc-bf4e3b742fc8" width="300" height="300" />
 
 
 ## New Architecture
