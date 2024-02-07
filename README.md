@@ -1,4 +1,4 @@
-![image](https://github.com/badal091/Master_Thesis/assets/103456016/476ea5ef-7b12-4f03-9b32-76472b02de1e)# Master_Thesis
+# Master_Thesis
 
 # Cross-Attention and ViT for Multi-Task Learning
 
