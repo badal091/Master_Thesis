@@ -7,3 +7,25 @@ Our main objective is to leverage vision transformer (ViT) and cross-attention t
 Multi task learning include classification, semantic segmentation, monocular depth estimation & surface normal estimation etc.
 
 ![image](https://github.com/badal091/Master_Thesis/assets/103456016/3555dda8-0f75-45bf-a1bc-bf4e3b742fc8)
+
+
+## New Architecture
+Original image size: 128x256x3
+Small Branch: 8x8x3 patch 
+Large Branch: 16x16x3 patch
+Obtain their feature embedding and pass through a self-attention network
+
+
+
+Exchange the tokens and do the cross-attention.
+Reshape:
+128x256 to 8x16x256
+512x256 to 16x32x256
+
+Upconvolve to give output of size: 128x256x256
+
+
+
+Add X1 and X2 elementwise and apply last cnn layer to give output of 8 channels ( num classes = 8).
+
+
