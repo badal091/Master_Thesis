@@ -50,7 +50,7 @@ Add X1 and X2 elementwise and apply last cnn layer to give output of 8 channels 
 
 3. Cross-Entropy and Dice loss were considered
 
-Other parameters:
+Hyper-parameters:
 
 1. Num Epochs = 40
 
