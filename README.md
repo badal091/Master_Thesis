@@ -45,17 +45,16 @@ Add X1 and X2 elementwise and apply last cnn layer to give output of 8 channels 
 ## Experiment Conducted & Metric Used
 
 1. Citiscapes dataset with 8 classes was used to train and test the model
-
-2. Intersection over union was the metric used to determine the performance. It is basically, total number of correctly predicted pixel / total pixels
-
-3. Cross-Entropy and Dice loss were considered
+2. mIOU and pixel accuracy was the metric used to determine the performance.
+3. pixel accuracy is basically, total number of correctly predicted pixel / total pixels.
+4. IOU is quantifies the overlap between the predicted bounding box and the ground truth bounding box from a dataset.
+5. Cross-Entropy and Dice loss were considered
+6. Dice loss measures the overlap between the predicted and target segmentation masks
 
 Hyper-parameters:
 
 1. Num Epochs = 40
-
 2. LR = 0.001
-
 3. Batch Size =32
 
 ## Results & Observation
