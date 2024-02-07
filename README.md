@@ -11,8 +11,11 @@ Multi task learning include classification, semantic segmentation, monocular dep
 
 ## New Architecture
 Original image size: 128x256x3
+
 Small Branch: 8x8x3 patch 
+
 Large Branch: 16x16x3 patch
+
 Obtain their feature embedding and pass through a self-attention network
 
 ![image](https://github.com/badal091/Master_Thesis/assets/103456016/2bd8993c-f0d7-4929-924a-116bd66a8dc2)
@@ -20,9 +23,13 @@ Obtain their feature embedding and pass through a self-attention network
 
 
 Exchange the tokens and do the cross-attention.
+
 Reshape:
+
 128x256 to 8x16x256
+
 512x256 to 16x32x256
+
 Upconvolve to give output of size: 128x256x256
 
 ![image](https://github.com/badal091/Master_Thesis/assets/103456016/69aa09c6-8d7e-474a-9486-93596ca9b6c6)
