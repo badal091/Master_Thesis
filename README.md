@@ -25,6 +25,7 @@ Obtain their feature embedding and pass through a self-attention network
 Exchange the tokens and do the cross-attention.
 
 Reshape:
+
 Small Branch: 512x256 to 16x32x256
 
 Large Branch: 128x256 to 8x16x256
