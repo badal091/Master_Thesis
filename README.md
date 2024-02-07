@@ -52,11 +52,11 @@ Add X1 and X2 elementwise and apply last cnn layer to give output of 8 channels 
 
 Other parameters:
 
-Num Epochs = 40
+1. Num Epochs = 40
 
-LR = 0.001
+2. LR = 0.001
 
-Batch Size =32
+3. Batch Size =32
 
 ## Results & Observation
 
@@ -66,7 +66,11 @@ Batch Size =32
 
 ![image](https://github.com/badal091/Master_Thesis/assets/103456016/b331be73-1e23-49e6-9369-9a936ec6f4ad)
 
+Example-1
+
 ![image](https://github.com/badal091/Master_Thesis/assets/103456016/0e5e66f6-55af-409b-9b95-c0cd07089a27)
+
+Example-2
 
 ![image](https://github.com/badal091/Master_Thesis/assets/103456016/d3c27ca8-9531-4f1c-a847-a5533ee5cf44)
 
