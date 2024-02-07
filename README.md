@@ -1,4 +1,4 @@
-# Master_Thesis
+# Master Thesis
 
 # Cross-Attention and ViT for Multi-Task Learning
 
