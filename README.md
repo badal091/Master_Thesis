@@ -1,4 +1,4 @@
-# Master_Thesis
+![image](https://github.com/badal091/Master_Thesis/assets/103456016/476ea5ef-7b12-4f03-9b32-76472b02de1e)# Master_Thesis
 
 # Cross-Attention and ViT for Multi-Task Learning
 
@@ -41,3 +41,31 @@ Upconvolve to give output of size: 128x256x256
 Add X1 and X2 elementwise and apply last cnn layer to give output of 8 channels ( num classes = 8).
 
 ![image](https://github.com/badal091/Master_Thesis/assets/103456016/a4b18d36-3402-4734-b201-a5b74ad7da36)
+
+## Experiment Conducted & Metric Used
+
+1. Citiscapes dataset with 8 classes was used to train and test the model
+
+2. Intersection over union was the metric used to determine the performance. It is basically, total number of correctly predicted pixel / total pixels
+
+3. Cross-Entropy and Dice loss were considered
+
+Other parameters:
+
+Num Epochs = 40
+
+LR = 0.001
+
+Batch Size =32
+
+## Results & Observation
+
+1. We obtained mIoU of 84.76% on testing data
+
+2. Within first 15 epoch, the loss showed decreasing fashion(from 77 to 69), but then was stuck at around 69 for next 15 epochs
+
+![image](https://github.com/badal091/Master_Thesis/assets/103456016/b331be73-1e23-49e6-9369-9a936ec6f4ad)
+
+![image](https://github.com/badal091/Master_Thesis/assets/103456016/b331be73-1e23-49e6-9369-9a936ec6f4ad)
+
+![image](https://github.com/badal091/Master_Thesis/assets/103456016/b331be73-1e23-49e6-9369-9a936ec6f4ad)
