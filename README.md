@@ -59,7 +59,7 @@ Hyper-parameters:
 
 ## Results & Observation
 
-1. We obtained mIoU of 84.76% on testing data
+1. We obtained mIoU of 78.54% on testing data
 
 ![image](https://github.com/badal091/Master_Thesis/assets/103456016/9b76b077-5b5f-4cf2-a4cd-3f2acb4cebed)
 
